@@ -1,0 +1,7 @@
+services:
+  shopify-api:
+    build: .
+    ports: ["3000:3000"]
+    environment:
+      UPSTREAM: "https://{store_name}.myshopify.com/admin/api/2024-10"
+    restart: unless-stopped

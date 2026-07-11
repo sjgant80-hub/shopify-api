@@ -1,0 +1,22 @@
+{
+  "name": "@ai-native-solutions/shopify-api",
+  "version": "1.0.0",
+  "description": "HTTP proxy for Shopify · 22 routes from OpenAPI · MIT · AI-Native Solutions",
+  "type": "module",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "author": "AI-Native Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/shopify-api.git"
+  },
+  "dependencies": {
+    "express": "^4.19.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
